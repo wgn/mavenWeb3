@@ -1,0 +1,282 @@
+@charset "gb2312";
+html,body{
+vertical-aligntop;
+font-family:12px 宋体,arial;
+line-height:18px;
+color:#000;
+text-align:center;
+margin-top:0px;
+}
+.clear{
+clear:both;
+width:100%; 
+height:0px; 
+overflow:hidden;
+}
+.wrap{
+background: url(bg.jpg) #fff;
+background-position: center;
+background-repeat: no-repeat;
+margin-top:10px;
+width:1003px;
+height:638px;
+margin-left:auto;
+margin-right:auto;
+}
+.head{
+width:1003px;
+min-height:132px;
+height:auto !important;
+height:132px;
+}
+.logo{
+background:url(logo.gif) #ffffff no-repeat ;
+float:left;
+width:264px;
+min-height:80px;
+height:auto !important;
+height:80px;
+margin-top:42px;
+margin-left:38px;
+display:inline;
+}
+.collection{
+float:left;
+width:1003px;
+min-height:20px;
+height:auto !important;
+height:20px;
+margin-top:10px;
+}
+.collection ul{
+list-style:none;
+margin-left:50px;
+}
+.collection ul li{
+float:left;
+}
+.nav{
+width:1003px;
+min-height:34px;
+height:auto !important;
+height:34px;
+background:url(nav-bg.gif);
+color:#fff;
+font-size:14px;
+}
+.nav ul{
+list-style:none;
+padding-top:8px;
+}
+.nav ul li{
+float:left;
+margin-left:25px;
+}
+.time{
+color:#fdc8f8;
+}
+.nav ul li a{
+color:#fff;
+text-decoration:none;
+display:block;
+height:20px;
+}
+.nav ul li a:hover{
+border-bottom:1px #fff solid;
+}
+.top{
+width:1003px;
+min-height:180px;
+height:auto !important;
+height:180px;
+margin-top:10px;
+}
+
+.lists{
+float:left;
+width:216px;
+margin-left:46px;
+}
+.top .left-clear{
+margin-left:0px;
+}
+.title{
+min-height:41px;
+height:auto !important;
+height:41px;
+border-bottom:1px #000 solid;
+}
+.title img,.title a{
+float:left;
+}
+.title a{
+min-height:41px;
+height:auto !important;
+height:41px;
+width:66px;
+color:#000;
+text-decoration:none;
+margin-top:13px;
+}
+.title a:hover{
+text-decoration:underline;
+}
+.list-list img{
+margin-bottom:1px;
+}
+.list-list a:hover img{
+FILTER: alpha(opacity=80); 
+    -khtml-opacity: 0.8;      /* safari */
+    -moz-opacity: 0.8;       /* mozilla, netscape */
+    opacity: 0.8;           /* fx, safari, opera */
+
+}
+.list-list ul{
+margin-top:10px;}
+.list-list ul li{
+text-align:left;
+padding-left:25px;
+margin-top:6px;
+background:url(ico1.gif) no-repeat;
+min-height:10px;
+height:auto !important;
+height:10px;
+}
+.list-list ul li a{
+margin:0px;
+color:#000;
+text-decoration:none;
+}
+.list-list ul li a:hover{
+text-decoration:underline;
+}
+.middle{
+width:1003px;
+min-height:217px;
+height:auto !important;
+height:217px;
+margin-top:10px;
+background:url(middle-bg.jpg) no-repeat;
+}
+#tab03 {
+float:left;
+position:relative; 
+width:470px;
+margin-left:20px;
+margin-top:20px;
+}
+#tab03 h3 { 
+position:relative; 
+z-index:1;
+width:103px; 
+height:32px; 
+cursor:pointer; 
+FILTER: alpha(opacity=50); 
+    -khtml-opacity: 0.5;      /* safari */
+    -moz-opacity: 0.5;       /* mozilla, netscape */
+    opacity: 0.5;           /* fx, safari, opera */
+}
+#tab03 h3.up { 
+z-index:3;
+FILTER: alpha(opacity=100); 
+    -khtml-opacity: 1;      /* safari */
+    -moz-opacity: 1;       /* mozilla, netscape */
+    opacity: 1;           /* fx, safari, opera */
+}
+#tab03 div.tab { 
+display:none; 
+position:absolute; 
+left:130px; 
+top:0; 
+z-index:2; 
+width:330px; 
+height:180px;
+border:1px #fff solid;
+}
+#tab03 div.tab.up { 
+display:block; 
+}
+/* ---------------------- 百叶窗banner  -------------------------- */
+#slider-wrap{width:330px; height:180px;}   /*可以修改宽高*/
+#slider{position: relative; width:330px; height:180px; background:#FFF;} /*可以修改宽高*/
+#slider img{position:absolute; top:0; left:0; display:none; width:330px; height: 180px;}/*可以修改宽高*/
+.nivoSlider{position:relative;overflow: hidden;}
+.nivoSlider img{position:absolute; top:0px; left:0px}
+.nivoSlider a.nivo-imageLink{position:absolute; top:0px;display:block;left:0px;width:330px;height:180px;border:0;padding:0;margin:0;z-index:6;}/*可以修改宽高*/
+.nivo-slice {display:block;position:absolute;z-index:5;height:100%;}
+.nivo-box {display:block;position:absolute;z-index:5;}
+.nivo-caption{position:absolute; left:0; bottom:0; background:#000;width:330px; z-index:50; height: 23px; }/*可以修改宽高*/
+.nivo-caption p{width:330px;height: 15px; text-indent: -9999px}/*可以修改宽高*/
+.nivo-controlNav{position:absolute; left:80%; bottom:3px; z-index: 100;}/*可以修改左右上下间距*/
+.nivo-controlNav a{position:relative; z-index:99; cursor:pointer;background:#590264}
+.nivo-controlNav a.active{background:#e1047b;font-weight:bold}
+.nivo-controlNav a{display:block; color: #fff; width:15px; height:15px; line-height: 16px; text-align: center; margin-right:3px; float:left; overflow: hidden;}/*可以修改宽高*/
+.nivo-directionNav a {position:absolute;top:45%;z-index:9;cursor:pointer;}   /*左右切换按钮，不能删除，如果不需要可以设背景，删除会引起图片错位*/
+.nivo-directionNav a {display:block;width:30px;height:30px;text-indent:-9999px;border:0;}
+a.nivo-nextNav {right:15px;}
+a.nivo-prevNav {left:15px;}
+
+.middle-list{
+float:left;
+width:400px;
+min-height:180px;
+height:auto !important;
+height:180px;
+margin-left:30px;
+margin-top:20px;
+}
+.more{
+margin-left:280px;
+}
+.more a{
+color:#fff;
+text-decoration:none;
+}
+.more a:hover{
+text-decoration:underline;
+}
+.middle-list ul{
+list-style:none;
+}
+.middle-list ul li{
+text-align:left;
+padding-left:30px;
+margin-top:6px;
+background:url(ico2.gif) no-repeat;
+min-height:23px;
+height:auto !important;
+height:23px;
+border-bottom:1px #fff solid;
+}
+.middle-list ul li a{
+color:#fff;
+text-decoration:none;
+}
+.middle-list ul li a:hover{
+color:#fcb4d6;
+}
+.bottom{
+width:787px;
+min-height:150px;
+height:auto !important;
+height:150px;
+margin-top:10px;
+padding-left:216px;
+}
+.footer{
+width:1003px;
+min-height:50px;
+height:auto !important;
+height:50px;
+margin-top:10px;
+border-top:1px #000 solid;
+}
+.footer p{
+margin-top:10px;
+}
+.footer p a{
+color:#000;
+text-decoration:none;
+}
+
+

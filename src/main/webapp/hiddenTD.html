@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<style type="text/css">
+.hover {
+	color: #fff;
+	background-color: #f00;
+}
+</style>
+<script src="360history/jquery-2.0.3.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('th').hover(function() {
+			var $index = $(this).index();
+			$(this).addClass('hover');
+			$('td:nth-child(' + ($index + 1) + ')').addClass('hover');
+		}, function() {
+			$('table tr').children().removeClass('hover');
+		});
+
+		$('th').click(function() {
+			var $index = $(this).index();
+			$('table th:not(:nth-child(' + ($index + 1) + '))').hide();
+			$('table td:not(:nth-child(' + ($index + 1) + '))').hide();
+		})
+	});
+</script>
+</head>
+<body>
+	<table border="1">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+				<th>Mark</th>
+			</tr>
+			<tr>
+				<td>100</td>
+				<td>Steven</td>
+				<td>100</td>
+			</tr>
+			<tr>
+				<td>101</td>
+				<td>Mike</td>
+				<td>70</td>
+			</tr>
+			<tr>
+				<td>102</td>
+				<td>Robo1t</td>
+				<td>80</td>
+			</tr>
+		</thead>
+	</table>
+</body>
+</html>
