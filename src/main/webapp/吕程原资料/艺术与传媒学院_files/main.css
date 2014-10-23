@@ -1,0 +1,195 @@
+UNKNOWN {
+	TEXT-ALIGN: center; LINE-HEIGHT: 18px; MARGIN-TOP: 0px; FONT-FAMILY: 12px 宋体,arial; BACKGROUND: url(bg.jpg) #fff repeat-x; COLOR: #000
+}
+.clear {
+	WIDTH: 100%; HEIGHT: 0px; CLEAR: both; OVERFLOW: hidden
+}
+.wrap {
+	MARGIN-TOP: 10px; WIDTH: 1003px; HEIGHT: 100%; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.head {
+	MIN-HEIGHT: 132px; WIDTH: 1003px; HEIGHT: auto !important
+}
+.logo {
+	MIN-HEIGHT: 80px; WIDTH: 264px; DISPLAY: inline; FLOAT: left; HEIGHT: auto !important; MARGIN-LEFT: 20px
+}
+.banner {
+	MIN-HEIGHT: 98px; WIDTH: 500px; BACKGROUND: url(banner.gif) no-repeat; FLOAT: left; HEIGHT: auto !important
+}
+.collection {
+	MARGIN-TOP: 80px; MIN-HEIGHT: 20px; WIDTH: 219px; FLOAT: left; HEIGHT: auto !important
+}
+.collection UL {
+	LIST-STYLE-TYPE: none; MARGIN-LEFT: 50px
+}
+.collection UL LI {
+	FLOAT: left
+}
+.nav {
+	MIN-HEIGHT: 34px; WIDTH: 1003px; BACKGROUND: url(nav-bg.gif); HEIGHT: auto !important; COLOR: #fff; FONT-SIZE: 14px
+}
+.nav UL {
+	LIST-STYLE-TYPE: none; PADDING-TOP: 8px
+}
+.nav UL LI {
+	FLOAT: left; MARGIN-LEFT: 25px
+}
+.time {
+	COLOR: #fdc8f8
+}
+.nav UL LI A {
+	DISPLAY: block; HEIGHT: 20px; COLOR: #fff; TEXT-DECORATION: none
+}
+.nav UL LI A:hover {
+	BORDER-BOTTOM: #fff 1px solid
+}
+.top {
+	MARGIN-TOP: 10px; MIN-HEIGHT: 180px; WIDTH: 1003px; HEIGHT: auto !important
+}
+.lists {
+	WIDTH: 216px; FLOAT: left; MARGIN-LEFT: 46px
+}
+.top .left-clear {
+	MARGIN-LEFT: 0px
+}
+.title {
+	BORDER-BOTTOM: #000 1px solid; MIN-HEIGHT: 41px; HEIGHT: auto !important
+}
+.title IMG {
+	FLOAT: left
+}
+.title A {
+	FLOAT: left
+}
+.title A {
+	MARGIN-TOP: 13px; MIN-HEIGHT: 41px; WIDTH: 66px; HEIGHT: auto !important; COLOR: #000; TEXT-DECORATION: none
+}
+.title A:hover {
+	TEXT-DECORATION: underline
+}
+.list-list IMG {
+	MARGIN-BOTTOM: 1px
+}
+.list-list A:hover IMG {
+	FILTER: alpha(opacity=80); -khtml-opacity: 0.8; -moz-opacity: 0.8; opacity: 0.8
+}
+.list-list UL {
+	MARGIN-TOP: 10px
+}
+.list-list UL LI {
+	TEXT-ALIGN: left; MARGIN-TOP: 6px; MIN-HEIGHT: 10px; PADDING-LEFT: 25px; BACKGROUND: url(ico1.gif) no-repeat; HEIGHT: auto !important
+}
+.list-list UL LI A {
+	MARGIN: 0px; COLOR: #000; TEXT-DECORATION: none
+}
+.list-list UL LI A:hover {
+	TEXT-DECORATION: underline
+}
+.middle {
+	MARGIN-TOP: 10px; MIN-HEIGHT: 217px; WIDTH: 1003px; BACKGROUND: url(middle-bg.jpg) no-repeat; HEIGHT: auto !important
+}
+#tab03 {
+	POSITION: relative; MARGIN-TOP: 20px; WIDTH: 470px; FLOAT: left; MARGIN-LEFT: 20px
+}
+#tab03 H3 {
+	Z-INDEX: 1; POSITION: relative; FILTER: alpha(opacity=50); WIDTH: 103px; HEIGHT: 32px; CURSOR: pointer; -khtml-opacity: 0.5; -moz-opacity: 0.5; opacity: 0.5
+}
+#tab03 H3.up {
+	Z-INDEX: 3; FILTER: alpha(opacity=100); -khtml-opacity: 1; -moz-opacity: 1; opacity: 1
+}
+#tab03 DIV.tab {
+	Z-INDEX: 2; BORDER-BOTTOM: #fff 1px solid; POSITION: absolute; BORDER-LEFT: #fff 1px solid; WIDTH: 330px; DISPLAY: none; HEIGHT: 180px; BORDER-TOP: #fff 1px solid; BORDER-RIGHT: #fff 1px solid; TOP: 0px; LEFT: 130px
+}
+#tab03 DIV.up.tab {
+	DISPLAY: block
+}
+#slider-wrap {
+	WIDTH: 330px; HEIGHT: 180px
+}
+#slider {
+	POSITION: relative; WIDTH: 330px; BACKGROUND: #fff; HEIGHT: 180px
+}
+#slider IMG {
+	POSITION: absolute; WIDTH: 330px; DISPLAY: none; HEIGHT: 180px; TOP: 0px; LEFT: 0px
+}
+.nivoSlider {
+	POSITION: relative; OVERFLOW: hidden
+}
+.nivoSlider IMG {
+	POSITION: absolute; TOP: 0px; LEFT: 0px
+}
+.nivoSlider A.nivo-imageLink {
+	Z-INDEX: 6; POSITION: absolute; PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 330px; PADDING-RIGHT: 0px; DISPLAY: block; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 180px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px; TOP: 0px; LEFT: 0px
+}
+.nivo-slice {
+	Z-INDEX: 5; POSITION: absolute; DISPLAY: block; HEIGHT: 100%
+}
+.nivo-box {
+	Z-INDEX: 5; POSITION: absolute; DISPLAY: block
+}
+.nivo-caption {
+	Z-INDEX: 50; POSITION: absolute; WIDTH: 330px; BOTTOM: 0px; BACKGROUND: #000; HEIGHT: 23px; LEFT: 0px
+}
+.nivo-caption P {
+	TEXT-INDENT: -9999px; WIDTH: 330px; HEIGHT: 15px
+}
+.nivo-controlNav {
+	Z-INDEX: 100; POSITION: absolute; BOTTOM: 3px; LEFT: 80%
+}
+.nivo-controlNav A {
+	Z-INDEX: 99; POSITION: relative; BACKGROUND: #590264; CURSOR: pointer
+}
+.nivo-controlNav A.active {
+	BACKGROUND: #e1047b; FONT-WEIGHT: bold
+}
+.nivo-controlNav A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 16px; WIDTH: 15px; DISPLAY: block; FLOAT: left; HEIGHT: 15px; COLOR: #fff; OVERFLOW: hidden; MARGIN-RIGHT: 3px
+}
+.nivo-directionNav A {
+	Z-INDEX: 9; POSITION: absolute; CURSOR: pointer; TOP: 45%
+}
+.nivo-directionNav A {
+	BORDER-RIGHT-WIDTH: 0px; TEXT-INDENT: -9999px; WIDTH: 30px; DISPLAY: block; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 30px; BORDER-LEFT-WIDTH: 0px
+}
+A.nivo-nextNav {
+	RIGHT: 15px
+}
+A.nivo-prevNav {
+	LEFT: 15px
+}
+.middle-list {
+	MARGIN-TOP: 20px; MIN-HEIGHT: 180px; WIDTH: 400px; FLOAT: left; HEIGHT: auto !important; MARGIN-LEFT: 30px
+}
+.more {
+	MARGIN-LEFT: 280px
+}
+.more A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.more A:hover {
+	TEXT-DECORATION: underline
+}
+.middle-list UL {
+	LIST-STYLE-TYPE: none
+}
+.middle-list UL LI {
+	BORDER-BOTTOM: #fff 1px solid; TEXT-ALIGN: left; MARGIN-TOP: 6px; MIN-HEIGHT: 23px; PADDING-LEFT: 30px; BACKGROUND: url(ico2.gif) no-repeat; HEIGHT: auto !important
+}
+.middle-list UL LI A {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.middle-list UL LI A:hover {
+	COLOR: #fcb4d6
+}
+.bottom {
+	MARGIN-TOP: 10px; MIN-HEIGHT: 150px; PADDING-LEFT: 216px; WIDTH: 787px; HEIGHT: auto !important
+}
+.footer {
+	MARGIN-TOP: 10px; MIN-HEIGHT: 50px; WIDTH: 1003px; HEIGHT: auto !important; BORDER-TOP: #000 1px solid
+}
+.footer P {
+	MARGIN-TOP: 10px
+}
+.footer P A {
+	COLOR: #000; TEXT-DECORATION: none
+}
