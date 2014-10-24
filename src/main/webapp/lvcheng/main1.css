@@ -21,7 +21,7 @@ html, body {vertical-aligntop;
 }
 
 .bg_img {
-	background: url(pig.jpg) #fff;
+	background: url(pig_new.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 1003px;
@@ -76,6 +76,7 @@ html, body {vertical-aligntop;
 
 .collection_a {
 	margin-top: 5px;
+	margin-left: 15px;
 	border: 1px solid #0000FF;
 }
 
